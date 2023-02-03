@@ -5,7 +5,7 @@
 #install.packages("randomForest")
 library(randomForest)
 # load data with numeric values only
-data <- read.csv("/Users/Craig/Desktop/NIS_Core_2017_Model_LOS.csv")
+data <- read.csv("/Users/Chetan/Desktop/NIS_Core_2017_Model_LOS.csv")
 # Omit null values from dataset so random forrest will execute
 # Replace NA values with column medians to maintain data integrity
 data <- na.roughfix(data)
